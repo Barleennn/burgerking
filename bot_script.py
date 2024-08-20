@@ -10,11 +10,11 @@ from aiogram.utils import executor
 import asyncio
 
 # Учетные данные по умолчанию
-LOGIN = "default_login"
-PASSWORD = "default_password"
+LOGIN = "БАЛОРА001"
+PASSWORD = "SpA123456$"
 
-API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'
-CHAT_ID = 'YOUR_CHAT_ID'
+API_TOKEN = '5754695804:AAHiIp1BY2skLVnVUlNZhWDoaTRTBlaApyY'
+CHAT_ID = '1419048544'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
@@ -105,9 +105,47 @@ async def start_tasks(message: types.Message):
         driver = webdriver.Chrome()
 
         urls = [
-            "https://rbi.okta.com/app/restaurantbrandsinternational_burgerkingacademy_1/exk1he4dgr4B86Exq1d8/sso/saml",
-            "https://www.burgerkinguniversity.com/learn/course/6069/dobro-pozalovat-v-burger-king-a001ruskz;lp=2195",
-            # Добавьте другие URL
+                "https://rbi.okta.com/app/restaurantbrandsinternational_burgerkingacademy_1/exk1he4dgr4B86Exq1d8/sso/saml",
+    "https://www.burgerkinguniversity.com/learn/course/6069/dobro-pozalovat-v-burger-king-a001ruskz;lp=2195",
+    "https://www.burgerkinguniversity.com/learn/course/6075/bezopasnost-pisevyh-produktov-a003ruskz;lp=2195",
+    "https://www.burgerkinguniversity.com/learn/course/9505/allergens-a0035ruskz;lp=2195",
+    "https://www.burgerkinguniversity.com/learn/course/6077/uborka-obzor-a004ruskz;lp=2195",
+    "https://www.burgerkinguniversity.com/learn/course/6080/ocistka-s-glubokim-pogruzeniem-a005ruskz;lp=2195",
+    "https://www.burgerkinguniversity.com/learn/course/6084/bezopasnost-i-zasita-a006ruskz;lp=2195",
+    "https://www.burgerkinguniversity.com/learn/course/6090/ocenocnyj-list-osnovy-basicsruskz;lp=2195",
+    "https://www.burgerkinguniversity.com/learn/course/6090/ocenocnyj-list-osnovy-basicsruskz;lp=873",
+    "https://www.burgerkinguniversity.com/learn/course/6096/uborka-restorana-bk009ruskz;lp=873",
+    "https://www.burgerkinguniversity.com/learn/course/6096/uborka-restorana-bk009ruskz;lp=873",
+    "https://www.burgerkinguniversity.com/learn/course/6096/uborka-restorana-bk009ruskz;lp=873",
+    "https://www.burgerkinguniversity.com/learn/course/6102/prigotovlenie-zagotovok-sendvici-bk011ruskz;lp=873",
+    "https://www.burgerkinguniversity.com/learn/course/6114/sendvici-bk016ruskz",
+    "https://www.burgerkinguniversity.com/learn/course/6179/zavtrak-bk038ruskz",
+    "https://www.burgerkinguniversity.com/learn/course/6272/deserty-bk018ruskz",
+    "https://www.burgerkinguniversity.com/learn/course/6273/vedusij-specialist-po-prodazam-i-obsluzivaniu-bk023ruskz",
+    "https://www.burgerkinguniversity.com/learn/course/6064/upakovka-markirovka-i-obertka-bk015ruskz",
+    "https://www.burgerkinguniversity.com/learn/course/6069/dobro-pozalovat-v-burger-king-a001ruskz",
+    "https://www.burgerkinguniversity.com/learn/course/6072/myte-ruk-a002ruskz",
+    "https://www.burgerkinguniversity.com/learn/course/6075/bezopasnost-pisevyh-produktov-a003ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6080/ocistka-s-glubokim-pogruzeniem-a005ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6084/bezopasnost-i-zasita-a006ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6090/ocenocnyj-list-osnovy-basicsruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6093/osnovnye-principy-podgotovki-bk008ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6096/uborka-restorana-bk009ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6099/vyderzka-goracih-produktov-bk010ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6105/ispolzovanie-zarocnogo-skafa-bk012ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6108/ispolzovanie-friturnicy-bk014ruskz",
+    "https://www.burkerkinguniversity.com/learn/course/6118/napitki-bk017ruskz"
+    "https://www.burgerkinguniversity.com/learn/course/6090/ocenocnyj-list-osnovy-basicsruskz;lp=872",
+    "https://www.burgerkinguniversity.com/learn/course/6093/osnovnye-principy-podgotovki-bk008ruskz;lp=872",
+    "https://www.burgerkinguniversity.com/learn/course/6096/uborka-restorana-bk009ruskz;lp=872",
+    "https://www.burgerkinguniversity.com/learn/course/6099/vyderzka-goracih-produktov-bk010ruskz;lp=872",
+    "https://www.burgerkinguniversity.com/learn/course/6108/ispolzovanie-friturnicy-bk014ruskz;lp=872",
+    "https://www.burgerkinguniversity.com/learn/course/6090/ocenocnyj-list-osnovy-basicsruskz;lp=874",
+    "https://www.burgerkinguniversity.com/learn/course/6118/napitki-bk017ruskz;lp=874",
+    "https://www.burgerkinguniversity.com/learn/course/6272/deserty-bk018ruskz;lp=874",
+    "https://www.burgerkinguniversity.com/learn/course/6096/uborka-restorana-bk009ruskz;lp=874",
+    "https://www.burgerkinguniversity.com/learn/course/6099/vyderzka-goracih-produktov-bk010ruskz;lp=874",
+    "https://www.burgerkinguniversity.com/learn/course/6064/upakovka-markirovka-i-obertka-bk015ruskz;lp=874",
         ]
 
         navigate_to_page(driver, urls[0])
